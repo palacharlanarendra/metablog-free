@@ -94,13 +94,13 @@ const Footer = () => {
             </div>
             <div className="flex flex-col gap-4 md:gap-0 md:flex-row items-center justify-between py-8 bg-base-200 border-t border-base-content/10">
                <div className="flex items-center gap-2.5">
-                  <Link href="/">
+                  {/* <Link href="/">
                      <Favicon className={`text-base-content`} />
-                  </Link>
+                  </Link> */}
                   <div>
-                     <h4 className="text-xl text-base-content font-sans">
+                     {/* <h4 className="text-xl text-base-content font-sans">
                         Meta<strong>Blog</strong>
-                     </h4>
+                     </h4> */}
                      <p className="mt-0.5 text-base-content/70 text-base">
                         © JS Template 2023. All Rights Reserved.
                      </p>

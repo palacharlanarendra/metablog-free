@@ -7,7 +7,7 @@
       "packages/*"
    ],
    "scripts": {
-      "build": "turbo run build",
+      "build":  "next build && next export",
       "dev": "turbo run dev",
       "lint": "turbo run lint",
       "format": "prettier --write . --ignore-path .prettierignore"
